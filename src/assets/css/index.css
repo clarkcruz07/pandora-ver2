@@ -1,0 +1,51 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;;
+}
+/* font */
+@font-face {
+    font-family: rubik;
+    src: url('../font/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: rubik-medium;
+    src: url('../font/Rubik-Medium.ttf');
+}
+html, body {
+    font-family: rubik !important;    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: rubik-medium !important;
+    color: #808080;
+}
+
+.base-color {
+    color: #16D391;
+}
+
+.rounded-big {
+    border-radius: 24px;
+}
+.border-default {
+    border: 2px solid #fff;
+}
+.img-thumbnail {
+    border: 0;
+}
+.base-text{
+    font-size: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.header-text {
+    font-size: 36px;
+    font-family: rubik-medium;
+}
+/* */
